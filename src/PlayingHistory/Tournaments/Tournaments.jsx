@@ -1,12 +1,17 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 import style from "../PlayingHistory.module.css";
-const colorOfPlace=( place) =>{
-    switch (place){
-        case "1":return style.first;
-        case "2":return style.second;
-        case "3":return style.third;
-        default: return style.any;
+
+const colorOfPlace = (place) => {
+    switch (place) {
+        case "1":
+            return style.first;
+        case "2":
+            return style.second;
+        case "3":
+            return style.third;
+        default:
+            return style.any;
 
     }
 
@@ -17,7 +22,7 @@ const Tournaments = (props) => {
         <th>{el.date}</th>
         <th className={colorOfPlace(el.place)}>{el.place}</th>
         <th><img className={style.Logo} src={el.eventLogo}/> {el.event}</th>
-        <th>{el.result} <img className={style.Logo} src={el.opositeTeamLogo}/> </th>
+        <th>{el.result} <img className={style.Logo} src={el.opositeTeamLogo}/></th>
         <th><img className={style.Logo} src={el.teamLogo}/> {el.team}</th>
 
     </tr>)

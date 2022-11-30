@@ -1,7 +1,8 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 import style from "../PlayingHistory.module.css";
-const Teams = (props)=>{
+
+const Teams = (props) => {
 
     let rowsTeams = props.teams.map(el => <tr>
         <th>{el.region}</th>
@@ -10,7 +11,7 @@ const Teams = (props)=>{
         <th>{el.end}</th>
         <th>{el.time}</th>
     </tr>)
-    return(<Table striped bordered hover>
+    return (<Table striped bordered hover>
         <thead>
         <tr>
             <th></th>

@@ -7,7 +7,6 @@ import state, {subscriber} from "./State"
 import {like} from "./State";
 
 
-
 let renderAllTree = () => {
     const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(

@@ -10,18 +10,13 @@ function App(props) {
 
     return (
         <BrowserRouter>
-
-
             <div className="App">
-
                 <Header/>
-
                 <Routes>
                     <Route path={"/mainPage"} element={<MainPage main={state.main} like={props.like}/>}/>
-                    <Route path={"/playingHistory"} element={<PlayingHistory data={state.history} />}/>
+                    <Route path={"/playingHistory"} element={<PlayingHistory data={state.history}/>}/>
                 </Routes>
             </div>
-
         </BrowserRouter>
     );
 }

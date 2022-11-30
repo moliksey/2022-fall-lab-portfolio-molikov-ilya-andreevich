@@ -1,4 +1,15 @@
-.first{background-color: gold;}
-.second{ background-color: silver;}
-.third{background-color: chocolate;}
-.any{background-color: cornflowerblue}
+.first {
+    background-color: gold;
+}
+
+.second {
+    background-color: silver;
+}
+
+.third {
+    background-color: chocolate;
+}
+
+.any {
+    background-color: cornflowerblue
+}

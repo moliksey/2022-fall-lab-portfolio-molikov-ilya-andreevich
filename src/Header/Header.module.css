@@ -1,4 +1,4 @@
-.header{
+.header {
     background-color: black;
     color: white;
     text-align: center;
@@ -7,19 +7,22 @@
     grid-gap: 10px;
 
 }
-.content{
-    padding-top:20px;
+
+.content {
+    padding-top: 20px;
 
 }
-.content a{
+
+.content a {
     color: white;
     text-decoration: none;
     padding: 10px;
 }
- a.active{
+
+a.active {
     background-color: dimgrey;
 }
 
-.header img{
+.header img {
     height: 60px;
 }

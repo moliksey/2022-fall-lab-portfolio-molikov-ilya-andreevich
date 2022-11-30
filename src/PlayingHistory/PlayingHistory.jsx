@@ -1,4 +1,5 @@
 import React from "react";
+import Table from 'react-bootstrap/Table';
 import style from "./PlayingHistory.module.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Teams from "./Teams/Teams";
